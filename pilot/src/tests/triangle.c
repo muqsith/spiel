@@ -1,4 +1,6 @@
 /*
+    glad/glad.h is present in /usr/local/include/
+
     Compilation
     $ gcc -o pilot/bin/triangle pilot/src/tests/glad.c pilot/src/tests/triangle.c $(pkg-config --cflags glfw3 --static --libs glfw3 gl)
 */
