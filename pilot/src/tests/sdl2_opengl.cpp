@@ -62,7 +62,7 @@ int main(int ArgCount, char **Args)
     }
 
     glViewport(0, 0, WinWidth, WinHeight);
-    glClearColor(1.f, 0.f, 1.f, 0.f);
+    glClearColor(0.f, 1.f, 0.f, 1.f);
     glClear(GL_COLOR_BUFFER_BIT);
 
     SDL_GL_SwapWindow(Window);
